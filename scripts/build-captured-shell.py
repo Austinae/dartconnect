@@ -16,7 +16,7 @@ PLAY_TYPES = ["Social", "DartBot", "Lobbies", "Events", "League Singles", "Leagu
 ONLINE_TYPES = {"Lobbies"}
 
 TREND_CARD = """
-<div class="rounded-md bg-white shadow p-3.5 relative xl:p-5 flex flex-col">
+<div id="trend" class="rounded-md bg-white shadow p-3.5 relative xl:p-5 flex flex-col">
     <h1 class="text-2xl md:text-3xl font-bold flex mb-2">
         <div class="flex flex-col">
             <div class="flex items-center">
@@ -279,7 +279,7 @@ def align_with_mock_data(body: str, st: dict) -> str:
                       ("Events", "oi"), ("League Singles", "oi"), ("League Team", "oi")]:
         for k in kinds:
             v = (st["online"] if k == "o" else st["in_person"]).get(pt)
-            slots.append(None if v is None else f"{v:.2f}")
+            slots.append(None if v is None else f"<span data-countup>{v:.2f}</span>")
     a, b = region(body, 'id="react-trend-chart-root"', "My DartConnect Average (DCA)")
     tile = r'<span>\s*(?P<v><span class="text-blue-300">---</span>|\d+\.\d{2})\s*</span>'
     body = body[:a] + sub_in_order(body[a:b], tile, slots, "Performance tiles") + body[b:]
@@ -296,15 +296,24 @@ def align_with_mock_data(body: str, st: dict) -> str:
     for label, old, new in [("Low Dart Game", "24", st["low_dart_game"]),
                             ("High Match Average", "51.68", f"{st['high_avg']:.2f}"),
                             ("Highest Finish", "56", st["highest_finish"])]:
-        seg, n = re.subn(rf"<span>{re.escape(old)}</span>(?=[\s\S]{{0,400}}?{label})", f"<span>{new}</span>", seg, count=1)
+        seg, n = re.subn(rf"<span>{re.escape(old)}</span>(?=[\s\S]{{0,400}}?{label})", f"<span data-countup>{new}</span>", seg, count=1)
         if n != 1:
             raise SystemExit(f"Achievements: {label} not found")
     for label, val in [("140+", t140), ("180s", t180)]:
         seg, n = re.subn(rf"---(\s*</span>\s*<span class=\"text-blue-400 text-center\">\s*{re.escape(label)})",
-                         rf"{val}\1", seg, count=1)
+                         rf"<span data-countup>{val}</span>\1", seg, count=1)
         if n != 1:
             raise SystemExit(f"Achievements: {label} not found")
-    return body[:a] + seg
+    return mark_count_up_spans(body[:a] + seg)
+
+
+def mark_count_up_spans(body: str) -> str:
+    """The site counts numbers up with countUp.js via Alpine; tag them so React can do the same."""
+    return re.sub(
+        r'<span x-ref="input" x-init="[^"]*CountUp\([^"]*">([\d,.]+)</span>',
+        r"<span data-countup>\1</span>",
+        body,
+    )
 
 
 def replace_bar_chart_canvas(body: str, st: dict) -> str:

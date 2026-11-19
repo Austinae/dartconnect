@@ -101,3 +101,7 @@
   background: #e7eff7;
   color: #162839;
 }
+
+#trend {
+  scroll-margin-top: 16px;
+}

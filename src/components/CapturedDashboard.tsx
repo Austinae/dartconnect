@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import TrendChartPanel from "./TrendChartPanel";
+import { startShellTickers } from "../lib/countUp";
 import shellBefore from "../generated/shell-before-chart.html?raw";
 import shellAfter from "../generated/shell-after-chart.html?raw";
 
@@ -18,7 +19,19 @@ export default function CapturedDashboard() {
     rootRef.current = createRoot(host);
     rootRef.current.render(<TrendChartPanel embedded />);
 
+    startShellTickers();
+
+    // The shell is injected after load, so the browser misses #trend links on its own.
+    const scrollToHash = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      if (id) document.getElementById(id)?.scrollIntoView();
+    };
+    scrollToHash();
+    // Fonts and CSS can shift the layout; settle again once everything has loaded.
+    window.addEventListener("load", scrollToHash, { once: true });
+
     return () => {
+      window.removeEventListener("load", scrollToHash);
       rootRef.current?.unmount();
       rootRef.current = null;
     };

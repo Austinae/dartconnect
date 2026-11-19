@@ -1,4 +1,5 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { CountUp } from "countup.js";
 import {
   CartesianGrid,
   ComposedChart,
@@ -26,6 +27,24 @@ import {
   periodStats,
   rangeLabel,
 } from "../lib/chart";
+import { tickerFor } from "../lib/countUp";
+
+/** Headline number that counts to its value, and rolls on when the filters change it. */
+function Ticker({ value }: { value: number }) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const counter = useRef<CountUp | null>(null);
+  const shown = useRef(value);
+
+  useEffect(() => {
+    if (!ref.current) return;
+    if (!counter.current) counter.current = tickerFor(ref.current, value, 2);
+    else if (shown.current !== value) counter.current.update(value);
+    shown.current = value;
+  }, [value]);
+
+  // CountUp owns the text, so React renders no children here.
+  return <span ref={ref} aria-label={value.toFixed(2)} />;
+}
 
 const TIME_RANGES: { id: TimeRange; label: string }[] = [
   { id: "14d", label: "2W" },
@@ -150,7 +169,7 @@ export default function TrendChartPanel({ embedded = false }: { embedded?: boole
       {stats.latest != null && (
         <div className="text-right text-sm">
           <div className="font-montserrat text-2xl font-bold text-blue-500">
-            {stats.latest.toFixed(2)}
+            <Ticker value={stats.latest} />
           </div>
           {stats.delta != null && (
             <div className={`font-semibold ${up ? "text-green-700" : "text-red-600"}`}>
