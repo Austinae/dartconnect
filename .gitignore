@@ -1,0 +1,9 @@
+# Raw captures of my.dartconnect.com. These contain a session CSRF token,
+# Livewire snapshots, a private calendar-sync URL and other players' email
+# addresses. Never commit them.
+reference/
+
+node_modules/
+dist/
+*.local
+.DS_Store

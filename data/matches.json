@@ -1,0 +1,101 @@
+{
+  "_source": "Read from my.dartconnect.com on 2026-11-19 (Matches list and Dashboard, member #368894).",
+  "_notes": [
+    "sido501Avg is the per-match Singles 501 SIDO average shown inline on the Matches list. null means no Singles 501 was played that night.",
+    "Cricket MPR per match is not shown on the Matches list. It has to come from each match report.",
+    "dashboardWeekly is what the existing 'My Performance Average (DCA)' chart plots for any filter other than All Time. Each x is 7 days earlier than the Monday of the week the match was played."
+  ],
+  "player": {
+    "name": "William Guerrand",
+    "memberNumber": 368894,
+    "league": "New York Dart League - Tuesday - Fall 2026",
+    "team": "3 20's walk into a bar",
+    "division": "Tue C1"
+  },
+  "dashboard": {
+    "allTimeDca": { "gameType": "Singles 501 SIDO", "playType": "League (Team)", "value": 38.14 },
+    "league": { "rank": 8, "points": 35, "threeDartAvg": 29.15, "mpr": 1.21 },
+    "activity": { "opponents": 16, "matches": 7, "legs": 34, "darts": 1162 },
+    "achievementsSido": {
+      "matches": 6,
+      "legs": 12,
+      "darts": 453,
+      "lowDartGame": 24,
+      "highMatchAverage": 51.68,
+      "highestFinish": 56,
+      "tons": { "60+": 29, "100+": 1, "140+": 0, "180": 0 }
+    }
+  },
+  "matches": [
+    {
+      "date": "2026-09-22",
+      "opponent": "Smoking Darts",
+      "result": "1-7",
+      "games": ["Doubles 501 DIDO", "Doubles Cricket"],
+      "sido501Avg": null,
+      "report": "https://recap.dartconnect.com/history/report/match/6ab310c159031dae25a1f62f"
+    },
+    {
+      "date": "2026-09-29",
+      "opponent": "Starving Dartist",
+      "result": "0-5",
+      "games": ["Doubles 501 DIDO", "Singles 501 SIDO"],
+      "sido501Avg": 51.68,
+      "report": "https://recap.dartconnect.com/history/report/match/6abc4c714b883d74de20d076"
+    },
+    {
+      "date": "2026-10-13",
+      "opponent": "Bust For Daddy",
+      "result": "3-3",
+      "games": ["Doubles 501 DIDO", "Doubles Cricket", "Singles 501 SIDO"],
+      "sido501Avg": 30.67,
+      "report": "https://recap.dartconnect.com/history/report/match/6acebb4b1a561eb2ae049835"
+    },
+    {
+      "date": "2026-10-20",
+      "opponent": "Just The Three Bulls",
+      "result": "1-4",
+      "games": ["Doubles Cricket", "Singles 501 SIDO"],
+      "sido501Avg": 44.21,
+      "report": "https://recap.dartconnect.com/history/report/match/6ad7fa72bd32629b2fbfc52d"
+    },
+    {
+      "date": "2026-10-27",
+      "opponent": "DARDAWGS",
+      "result": "2-6",
+      "games": ["Doubles 501 DIDO", "Doubles Cricket", "Singles 501 SIDO"],
+      "sido501Avg": 31.31,
+      "report": "https://recap.dartconnect.com/history/report/match/6ae131d788a1b4d32616891a"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "Smoking Darts",
+      "result": "0-6",
+      "games": ["Doubles 501 DIDO", "Doubles Cricket", "Singles 501 SIDO"],
+      "sido501Avg": 39.72,
+      "report": "https://recap.dartconnect.com/history/report/match/6af3bb0a8e2f00636dc15e57"
+    },
+    {
+      "date": "2026-11-17",
+      "opponent": "Starving Dartist",
+      "result": "1-2",
+      "games": ["Doubles Cricket", "Singles 501 SIDO"],
+      "sido501Avg": 39.57,
+      "report": "https://recap.dartconnect.com/history/report/match/6afcf5de8e2f00636dcaacc1"
+    }
+  ],
+  "dashboardWeekly": {
+    "chart": "My Performance Average (DCA)",
+    "axisLabel": "Weekly 7-Day Average",
+    "gameType": "Singles 501 SIDO",
+    "series": "League (Team)",
+    "points": [
+      { "x": "2026-09-21", "y": 51.68, "matchDate": "2026-09-29", "correctWeekStart": "2026-09-28" },
+      { "x": "2026-10-05", "y": 30.67, "matchDate": "2026-10-13", "correctWeekStart": "2026-10-12" },
+      { "x": "2026-10-12", "y": 44.21, "matchDate": "2026-10-20", "correctWeekStart": "2026-10-19" },
+      { "x": "2026-10-19", "y": 31.31, "matchDate": "2026-10-27", "correctWeekStart": "2026-10-26" },
+      { "x": "2026-11-02", "y": 39.72, "matchDate": "2026-11-10", "correctWeekStart": "2026-11-09" },
+      { "x": "2026-11-09", "y": 39.57, "matchDate": "2026-11-17", "correctWeekStart": "2026-11-16" }
+    ]
+  }
+}
