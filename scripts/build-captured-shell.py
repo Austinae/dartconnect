@@ -39,14 +39,15 @@ def sanitize(html: str) -> str:
     html = re.sub(r"<style[\s\S]*?</style>", "", html, flags=re.I)
 
     # Drop Livewire loading shells (both blocks render without Alpine/Livewire → duplicates).
+    # wire:loading.class / .remove sit on the real content, so leave those alone.
     html = re.sub(
-        r'<div[^>]*\swire:loading(?!\.remove)[^>]*>',
+        r'<div[^>]*\swire:loading(?!\.remove|\.class)[^>]*>',
         '<div hidden data-dc-loading-shell="1">',
         html,
         flags=re.I,
     )
     html = re.sub(
-        r"<span[^>]*\swire:loading(?!\.remove)[^>]*>[\s\S]*?</span>\s*",
+        r"<span[^>]*\swire:loading(?!\.remove|\.class)[^>]*>[\s\S]*?</span>\s*",
         "",
         html,
         flags=re.I,
@@ -133,6 +134,67 @@ def excise_loading_shells(html: str) -> str:
     return html
 
 
+def dca_bar_chart_svg() -> str:
+    """Static copy of the Chart.js 'Online vs In-Person' bar chart (canvas is blank without JS)."""
+    cats = ["Social", "DartBot", "Lobbies", "Events", "League Singles", "League Team"]
+    in_person = {"League Team": 38.14}
+    left, right, top, bottom, ymax = 40, 772, 10, 340, 40
+    step = (right - left) / len(cats)
+    y = lambda v: bottom - (bottom - top) * v / ymax
+    text = 'font-family="Open Sans, sans-serif" font-size="11" fill="#666"'
+    out = ['<svg viewBox="0 0 782 440" width="100%" height="100%" role="img" '
+           'aria-label="Online vs In-Person Performance">']
+    for v in range(0, ymax + 1, 5):
+        out.append(f'<line x1="{left}" x2="{right}" y1="{y(v):.1f}" y2="{y(v):.1f}" stroke="#e5e5e5"/>')
+        out.append(f'<text x="{left - 8}" y="{y(v) + 4:.1f}" text-anchor="end" {text}>{v}</text>')
+    for i in range(len(cats) + 1):
+        x = left + i * step
+        out.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{top}" y2="{bottom + 6}" stroke="#e5e5e5"/>')
+    out.append(f'<line x1="{left}" x2="{right}" y1="{bottom}" y2="{bottom}" stroke="#999"/>')
+    for i, c in enumerate(cats):
+        cx = left + (i + 0.5) * step
+        out.append(f'<text x="{cx:.1f}" y="{bottom + 20}" text-anchor="middle" {text}>{c}</text>')
+        if c in in_person:
+            v = in_person[c]
+            bw = step * 0.36
+            bx = cx + step * 0.04
+            out.append(f'<rect x="{bx:.1f}" y="{y(v):.1f}" width="{bw:.1f}" '
+                       f'height="{bottom - y(v):.1f}" fill="#f7d68a"/>')
+            out.append(f'<text x="{bx + bw / 2:.1f}" y="{(y(v) + bottom) / 2 + 4:.1f}" text-anchor="middle" '
+                       f'font-family="Open Sans, sans-serif" font-size="12" font-weight="700" '
+                       f'fill="#6b5a2a">{v:.2f}</text>')
+    mid = (left + right) / 2
+    out.append(f'<text x="{mid}" y="{bottom + 44}" text-anchor="middle" font-family="Open Sans, sans-serif" '
+               f'font-size="12" font-weight="700" fill="#666">Online vs In-Person Performance</text>')
+    ly = bottom + 64
+    out.append(f'<rect x="{mid - 110}" y="{ly}" width="40" height="12" fill="#c9dcee"/>')
+    out.append(f'<text x="{mid - 64}" y="{ly + 10}" {text}>Online DCA</text>')
+    out.append(f'<rect x="{mid + 12}" y="{ly}" width="40" height="12" fill="#f7d68a"/>')
+    out.append(f'<text x="{mid + 58}" y="{ly + 10}" {text}>In-Person DCA</text>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def replace_bar_chart_canvas(body: str) -> str:
+    out, n = re.subn(r'<canvas id="barChart"[^>]*></canvas>', dca_bar_chart_svg(), body, count=1)
+    if n != 1:
+        raise SystemExit("barChart canvas not found")
+    return out
+
+
+def hide_activity_pie_card(body: str) -> str:
+    """The flip card's front (My Activity) is only a blank Chart.js canvas; show the Achievements side."""
+    out, n = re.subn(
+        r'(<div class="flex overflow-hidden flex-col p-4 bg-white rounded-md shadow lg:p-6 front")',
+        r'\1 style="display:none"',
+        body,
+        count=1,
+    )
+    if n != 1:
+        raise SystemExit("My Activity front card not found")
+    return out
+
+
 def extract_body_inner(html: str) -> str:
     m = re.search(r"<body[^>]*>([\s\S]*)</body>", html, re.I)
     if not m:
@@ -200,6 +262,8 @@ def main() -> None:
     body = extract_body_inner(sanitize(raw))
     body = excise_loading_shells(body)
     body = remove_bottom_line_chart_section(body)
+    body = replace_bar_chart_canvas(body)
+    body = hide_activity_pie_card(body)
     body = polish_performance_copy(body)
     body = redact_sensitive_strings(body)
     body = inject_trend_card(body)
