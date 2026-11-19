@@ -19,7 +19,13 @@ import {
   type PlayType,
   type TimeRange,
 } from "../types";
-import { buildChartRows, filterPoints, periodStats, rangeLabel } from "../lib/chart";
+import {
+  buildChartRows,
+  filterPoints,
+  formatShortDate,
+  periodStats,
+  rangeLabel,
+} from "../lib/chart";
 
 const TIME_RANGES: { id: TimeRange; label: string }[] = [
   { id: "14d", label: "2W" },
@@ -80,6 +86,21 @@ export default function TrendChartPanel({ embedded = false }: { embedded?: boole
     const max = Math.max(...values);
     return [Math.floor(min - 4), Math.ceil(max + 3)] as [number, number];
   }, [chartRows]);
+
+  // Long timelines get one tick per year; short ones keep month and day.
+  const yearOf = (iso: string) => iso.slice(0, 4);
+  const multiYear =
+    chartRows.length > 1 &&
+    yearOf(chartRows[0].date) !== yearOf(chartRows[chartRows.length - 1].date);
+  const yearTicks = useMemo(
+    () =>
+      multiYear
+        ? chartRows
+            .filter((r, i) => i === 0 || yearOf(r.date) !== yearOf(chartRows[i - 1].date))
+            .map((r) => r.key)
+        : undefined,
+    [chartRows, multiYear]
+  );
 
   const togglePlayType = (pt: PlayType) => {
     setPlayTypes((prev) => {
@@ -148,11 +169,15 @@ export default function TrendChartPanel({ embedded = false }: { embedded?: boole
         <ComposedChart data={scatterData} margin={{ top: 8, right: 8, left: 0, bottom: 4 }}>
           <CartesianGrid stroke="#d6e4f1" strokeDasharray="3 3" vertical={false} />
           <XAxis
-            dataKey="label"
+            dataKey="key"
+            ticks={yearTicks}
+            tickFormatter={(k: string) =>
+              multiYear ? yearOf(k) : formatShortDate(k.slice(0, 10))
+            }
             tick={{ fill: "#667b8f", fontSize: 11 }}
             axisLine={{ stroke: "#c4d8eb" }}
             tickLine={false}
-            interval="preserveStartEnd"
+            interval={multiYear ? 0 : "preserveStartEnd"}
           />
           <YAxis
             domain={yDomain}
@@ -234,12 +259,27 @@ export default function TrendChartPanel({ embedded = false }: { embedded?: boole
     </div>
   );
 
+  const body =
+    filtered.length === 0 ? (
+      <div className="dc-trend-chart-canvas flex items-center justify-center text-sm font-semibold text-blue-400">
+        No sessions for this range and filters.
+      </div>
+    ) : (
+      chart
+    );
+
   if (embedded) {
     return (
-      <div className="relative w-full px-1">
-        {toolbar}
-        {chart}
-        {playTypeRow}
+      <div className="dc-trend-demo-wrap w-full">
+        <span className="dc-trend-demo-badge" title="Unofficial prototype — not part of my.dartconnect.com">
+          Demo
+        </span>
+        <p className="dc-trend-demo-note">Prototype widget · mock sessions for illustration</p>
+        <div className="relative w-full px-1">
+          {toolbar}
+          {body}
+          {playTypeRow}
+        </div>
       </div>
     );
   }
@@ -251,7 +291,7 @@ export default function TrendChartPanel({ embedded = false }: { embedded?: boole
         Singles 501 SIDO · {rangeLabel(range)} · {filtered.length} sessions
       </p>
       {toolbar}
-      {chart}
+      {body}
       {playTypeRow}
     </div>
   );

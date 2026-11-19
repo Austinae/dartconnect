@@ -1,0 +1,2243 @@
+[
+  {
+    "id": "social-2020-03-06",
+    "date": "2020-03-06",
+    "threeDartAvg": 32.3,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-03-10",
+    "date": "2020-03-10",
+    "threeDartAvg": 29.46,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-03-15",
+    "date": "2020-03-15",
+    "threeDartAvg": 28.14,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-03-20",
+    "date": "2020-03-20",
+    "threeDartAvg": 34.11,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-03-29",
+    "date": "2020-03-29",
+    "threeDartAvg": 31.93,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-04-12",
+    "date": "2020-04-12",
+    "threeDartAvg": 32.55,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-04-26",
+    "date": "2020-04-26",
+    "threeDartAvg": 30.79,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-04-27",
+    "date": "2020-04-27",
+    "threeDartAvg": 28.45,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-05-15",
+    "date": "2020-05-15",
+    "threeDartAvg": 27.54,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-06-01",
+    "date": "2020-06-01",
+    "threeDartAvg": 31.73,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-06-03",
+    "date": "2020-06-03",
+    "threeDartAvg": 33.44,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-06-05",
+    "date": "2020-06-05",
+    "threeDartAvg": 30.39,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-06-26",
+    "date": "2020-06-26",
+    "threeDartAvg": 28.94,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-06-27",
+    "date": "2020-06-27",
+    "threeDartAvg": 36.01,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-07-11",
+    "date": "2020-07-11",
+    "threeDartAvg": 29.14,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-07-27",
+    "date": "2020-07-27",
+    "threeDartAvg": 33.05,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-07-30",
+    "date": "2020-07-30",
+    "threeDartAvg": 36.66,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-08-14",
+    "date": "2020-08-14",
+    "threeDartAvg": 31.84,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-08-18",
+    "date": "2020-08-18",
+    "threeDartAvg": 34.76,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-09-17",
+    "date": "2020-09-17",
+    "threeDartAvg": 30.4,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2020-09-25",
+    "date": "2020-09-25",
+    "threeDartAvg": 31.39,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-09-29",
+    "date": "2020-09-29",
+    "threeDartAvg": 37.1,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-09-30",
+    "date": "2020-09-30",
+    "threeDartAvg": 30.65,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-10-09",
+    "date": "2020-10-09",
+    "threeDartAvg": 30.45,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-10-12",
+    "date": "2020-10-12",
+    "threeDartAvg": 34.13,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-10-13",
+    "date": "2020-10-13",
+    "threeDartAvg": 40.1,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2020-10-21",
+    "date": "2020-10-21",
+    "threeDartAvg": 39.85,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2020-10-31",
+    "date": "2020-10-31",
+    "threeDartAvg": 35.25,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2020-11-16",
+    "date": "2020-11-16",
+    "threeDartAvg": 36.68,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-01-01",
+    "date": "2021-01-01",
+    "threeDartAvg": 32.3,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-01-13",
+    "date": "2021-01-13",
+    "threeDartAvg": 35.98,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-01-17",
+    "date": "2021-01-17",
+    "threeDartAvg": 35.22,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-02-01",
+    "date": "2021-02-01",
+    "threeDartAvg": 30.02,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-02-06",
+    "date": "2021-02-06",
+    "threeDartAvg": 37.69,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-02-12",
+    "date": "2021-02-12",
+    "threeDartAvg": 34.97,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-03-11",
+    "date": "2021-03-11",
+    "threeDartAvg": 31.69,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-04-11",
+    "date": "2021-04-11",
+    "threeDartAvg": 37.01,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-04-17",
+    "date": "2021-04-17",
+    "threeDartAvg": 34.55,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2021-05-04",
+    "date": "2021-05-04",
+    "threeDartAvg": 34.11,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-05-12",
+    "date": "2021-05-12",
+    "threeDartAvg": 38.05,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-05-22",
+    "date": "2021-05-22",
+    "threeDartAvg": 32.06,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-06-01",
+    "date": "2021-06-01",
+    "threeDartAvg": 39.8,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-06-02",
+    "date": "2021-06-02",
+    "threeDartAvg": 38.12,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-07-03",
+    "date": "2021-07-03",
+    "threeDartAvg": 41.21,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-07-04",
+    "date": "2021-07-04",
+    "threeDartAvg": 37.34,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-07-07",
+    "date": "2021-07-07",
+    "threeDartAvg": 30.1,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2021-07-16",
+    "date": "2021-07-16",
+    "threeDartAvg": 38.8,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-07-17",
+    "date": "2021-07-17",
+    "threeDartAvg": 33.32,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-07-29",
+    "date": "2021-07-29",
+    "threeDartAvg": 36.37,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-07-31",
+    "date": "2021-07-31",
+    "threeDartAvg": 37.29,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-08-06",
+    "date": "2021-08-06",
+    "threeDartAvg": 37.72,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-08-12",
+    "date": "2021-08-12",
+    "threeDartAvg": 39.37,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-08-20",
+    "date": "2021-08-20",
+    "threeDartAvg": 39.79,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-08-24",
+    "date": "2021-08-24",
+    "threeDartAvg": 37.66,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2021-09-01",
+    "date": "2021-09-01",
+    "threeDartAvg": 37.21,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-10-09",
+    "date": "2021-10-09",
+    "threeDartAvg": 37.6,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-10-15",
+    "date": "2021-10-15",
+    "threeDartAvg": 41.03,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-10-16",
+    "date": "2021-10-16",
+    "threeDartAvg": 38.12,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-11-13",
+    "date": "2021-11-13",
+    "threeDartAvg": 40.31,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-11-16",
+    "date": "2021-11-16",
+    "threeDartAvg": 36.28,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2021-12-06",
+    "date": "2021-12-06",
+    "threeDartAvg": 38.92,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-12-10",
+    "date": "2021-12-10",
+    "threeDartAvg": 43.91,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2021-12-15",
+    "date": "2021-12-15",
+    "threeDartAvg": 41.67,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2021-12-21",
+    "date": "2021-12-21",
+    "threeDartAvg": 39.23,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2022-01-11",
+    "date": "2022-01-11",
+    "threeDartAvg": 33.01,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2022-01-19",
+    "date": "2022-01-19",
+    "threeDartAvg": 37.9,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2022-02-18",
+    "date": "2022-02-18",
+    "threeDartAvg": 41.07,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-03-17",
+    "date": "2022-03-17",
+    "threeDartAvg": 35.42,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-03-18",
+    "date": "2022-03-18",
+    "threeDartAvg": 39.43,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2022-03-25",
+    "date": "2022-03-25",
+    "threeDartAvg": 34.81,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-04-10",
+    "date": "2022-04-10",
+    "threeDartAvg": 41.59,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-04-22",
+    "date": "2022-04-22",
+    "threeDartAvg": 36.09,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-05-24",
+    "date": "2022-05-24",
+    "threeDartAvg": 41.4,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-07-18",
+    "date": "2022-07-18",
+    "threeDartAvg": 38.26,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2022-07-25",
+    "date": "2022-07-25",
+    "threeDartAvg": 33.76,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2022-09-18",
+    "date": "2022-09-18",
+    "threeDartAvg": 36.39,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-09-22",
+    "date": "2022-09-22",
+    "threeDartAvg": 39.36,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-09-29",
+    "date": "2022-09-29",
+    "threeDartAvg": 37.88,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2022-10-06",
+    "date": "2022-10-06",
+    "threeDartAvg": 34.57,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2022-12-04",
+    "date": "2022-12-04",
+    "threeDartAvg": 35.88,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2022-12-23",
+    "date": "2022-12-23",
+    "threeDartAvg": 32.5,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2022-12-27",
+    "date": "2022-12-27",
+    "threeDartAvg": 38.84,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-01-03",
+    "date": "2023-01-03",
+    "threeDartAvg": 39.49,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-01-16",
+    "date": "2023-01-16",
+    "threeDartAvg": 39.01,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-02-03",
+    "date": "2023-02-03",
+    "threeDartAvg": 37.79,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-02-05",
+    "date": "2023-02-05",
+    "threeDartAvg": 34.36,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-02-13",
+    "date": "2023-02-13",
+    "threeDartAvg": 32.9,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2023-04-10",
+    "date": "2023-04-10",
+    "threeDartAvg": 30.25,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-04-17",
+    "date": "2023-04-17",
+    "threeDartAvg": 38.66,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-04-27",
+    "date": "2023-04-27",
+    "threeDartAvg": 38.77,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-05-24",
+    "date": "2023-05-24",
+    "threeDartAvg": 39.84,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-06-10",
+    "date": "2023-06-10",
+    "threeDartAvg": 31.15,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-08-20",
+    "date": "2023-08-20",
+    "threeDartAvg": 33.24,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-08-31",
+    "date": "2023-08-31",
+    "threeDartAvg": 33.97,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-09-06",
+    "date": "2023-09-06",
+    "threeDartAvg": 34.54,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2023-09-26",
+    "date": "2023-09-26",
+    "threeDartAvg": 31.73,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-10-15",
+    "date": "2023-10-15",
+    "threeDartAvg": 36.18,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-10-22",
+    "date": "2023-10-22",
+    "threeDartAvg": 33.24,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-11-01",
+    "date": "2023-11-01",
+    "threeDartAvg": 32.52,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-11-03",
+    "date": "2023-11-03",
+    "threeDartAvg": 37.63,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-11-16",
+    "date": "2023-11-16",
+    "threeDartAvg": 36.5,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2023-11-24",
+    "date": "2023-11-24",
+    "threeDartAvg": 35.29,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-12-12",
+    "date": "2023-12-12",
+    "threeDartAvg": 35.12,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-12-14",
+    "date": "2023-12-14",
+    "threeDartAvg": 38.63,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2023-12-20",
+    "date": "2023-12-20",
+    "threeDartAvg": 40.1,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2023-12-30",
+    "date": "2023-12-30",
+    "threeDartAvg": 37.29,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2024-01-10",
+    "date": "2024-01-10",
+    "threeDartAvg": 40.6,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2024-01-23",
+    "date": "2024-01-23",
+    "threeDartAvg": 35.26,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-01-25",
+    "date": "2024-01-25",
+    "threeDartAvg": 42.7,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-01-28",
+    "date": "2024-01-28",
+    "threeDartAvg": 37.11,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-01-29",
+    "date": "2024-01-29",
+    "threeDartAvg": 33.57,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-02-11",
+    "date": "2024-02-11",
+    "threeDartAvg": 34.52,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-02-21",
+    "date": "2024-02-21",
+    "threeDartAvg": 37.4,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-02-24",
+    "date": "2024-02-24",
+    "threeDartAvg": 37.45,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-02-26",
+    "date": "2024-02-26",
+    "threeDartAvg": 39.97,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-03-05",
+    "date": "2024-03-05",
+    "threeDartAvg": 42.08,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-03-12",
+    "date": "2024-03-12",
+    "threeDartAvg": 39.4,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-03-14",
+    "date": "2024-03-14",
+    "threeDartAvg": 44.39,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-03-17",
+    "date": "2024-03-17",
+    "threeDartAvg": 41.85,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2024-03-26",
+    "date": "2024-03-26",
+    "threeDartAvg": 41.42,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-03-29",
+    "date": "2024-03-29",
+    "threeDartAvg": 41.25,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-04-02",
+    "date": "2024-04-02",
+    "threeDartAvg": 45.61,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-04-03",
+    "date": "2024-04-03",
+    "threeDartAvg": 40.7,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-04-06",
+    "date": "2024-04-06",
+    "threeDartAvg": 40.33,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-04-20",
+    "date": "2024-04-20",
+    "threeDartAvg": 41.44,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-04-26",
+    "date": "2024-04-26",
+    "threeDartAvg": 38.42,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-05-04",
+    "date": "2024-05-04",
+    "threeDartAvg": 37.3,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-05-14",
+    "date": "2024-05-14",
+    "threeDartAvg": 41.65,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-05-29",
+    "date": "2024-05-29",
+    "threeDartAvg": 39.55,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-05-31",
+    "date": "2024-05-31",
+    "threeDartAvg": 40.85,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-06-05",
+    "date": "2024-06-05",
+    "threeDartAvg": 38.22,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-06-11",
+    "date": "2024-06-11",
+    "threeDartAvg": 37.65,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-06-13",
+    "date": "2024-06-13",
+    "threeDartAvg": 43.75,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-06-18",
+    "date": "2024-06-18",
+    "threeDartAvg": 40.67,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-06-26",
+    "date": "2024-06-26",
+    "threeDartAvg": 42.97,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-07-02",
+    "date": "2024-07-02",
+    "threeDartAvg": 43.07,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-07-18",
+    "date": "2024-07-18",
+    "threeDartAvg": 40.21,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-07-21",
+    "date": "2024-07-21",
+    "threeDartAvg": 43.41,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-07-24",
+    "date": "2024-07-24",
+    "threeDartAvg": 37.64,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-08-04",
+    "date": "2024-08-04",
+    "threeDartAvg": 41.52,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-08-11",
+    "date": "2024-08-11",
+    "threeDartAvg": 45.72,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2024-08-12",
+    "date": "2024-08-12",
+    "threeDartAvg": 39.35,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-08-27",
+    "date": "2024-08-27",
+    "threeDartAvg": 41.16,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-08-29",
+    "date": "2024-08-29",
+    "threeDartAvg": 41.34,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-09-03",
+    "date": "2024-09-03",
+    "threeDartAvg": 48.29,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-09-10",
+    "date": "2024-09-10",
+    "threeDartAvg": 42.41,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-09-13",
+    "date": "2024-09-13",
+    "threeDartAvg": 44.12,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2024-09-24",
+    "date": "2024-09-24",
+    "threeDartAvg": 43.83,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-10-03",
+    "date": "2024-10-03",
+    "threeDartAvg": 50.07,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-10-14",
+    "date": "2024-10-14",
+    "threeDartAvg": 48.3,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-10-19",
+    "date": "2024-10-19",
+    "threeDartAvg": 46.37,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2024-10-21",
+    "date": "2024-10-21",
+    "threeDartAvg": 41.62,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-10-22",
+    "date": "2024-10-22",
+    "threeDartAvg": 46.13,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-10-27",
+    "date": "2024-10-27",
+    "threeDartAvg": 46.09,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-11-11",
+    "date": "2024-11-11",
+    "threeDartAvg": 43.92,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-11-12",
+    "date": "2024-11-12",
+    "threeDartAvg": 45.61,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-11-13",
+    "date": "2024-11-13",
+    "threeDartAvg": 46.52,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2024-11-19",
+    "date": "2024-11-19",
+    "threeDartAvg": 44.35,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2024-11-26",
+    "date": "2024-11-26",
+    "threeDartAvg": 48.28,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2024-12-02",
+    "date": "2024-12-02",
+    "threeDartAvg": 42.46,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2024-12-03",
+    "date": "2024-12-03",
+    "threeDartAvg": 38.03,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2024-12-08",
+    "date": "2024-12-08",
+    "threeDartAvg": 43.89,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2024-12-25",
+    "date": "2024-12-25",
+    "threeDartAvg": 46.18,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-01-20",
+    "date": "2025-01-20",
+    "threeDartAvg": 44.83,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-01-21",
+    "date": "2025-01-21",
+    "threeDartAvg": 42.67,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-02-12",
+    "date": "2025-02-12",
+    "threeDartAvg": 42.24,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-03-04",
+    "date": "2025-03-04",
+    "threeDartAvg": 43.12,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-03-18",
+    "date": "2025-03-18",
+    "threeDartAvg": 47.57,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-03-20",
+    "date": "2025-03-20",
+    "threeDartAvg": 48.6,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-03-22",
+    "date": "2025-03-22",
+    "threeDartAvg": 46.06,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-03-24",
+    "date": "2025-03-24",
+    "threeDartAvg": 39.67,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-04-01",
+    "date": "2025-04-01",
+    "threeDartAvg": 45.18,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-04-04",
+    "date": "2025-04-04",
+    "threeDartAvg": 48.07,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-04-08",
+    "date": "2025-04-08",
+    "threeDartAvg": 46.19,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-04-12",
+    "date": "2025-04-12",
+    "threeDartAvg": 49.37,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-04-17",
+    "date": "2025-04-17",
+    "threeDartAvg": 47.14,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-04-22",
+    "date": "2025-04-22",
+    "threeDartAvg": 54.0,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-04-24",
+    "date": "2025-04-24",
+    "threeDartAvg": 51.5,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-04-29",
+    "date": "2025-04-29",
+    "threeDartAvg": 44.78,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-04-29",
+    "date": "2025-04-29",
+    "threeDartAvg": 47.86,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-05-02",
+    "date": "2025-05-02",
+    "threeDartAvg": 47.79,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-05-14",
+    "date": "2025-05-14",
+    "threeDartAvg": 49.11,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-05-19",
+    "date": "2025-05-19",
+    "threeDartAvg": 50.62,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-05-20",
+    "date": "2025-05-20",
+    "threeDartAvg": 50.6,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-06-01",
+    "date": "2025-06-01",
+    "threeDartAvg": 46.41,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-06-05",
+    "date": "2025-06-05",
+    "threeDartAvg": 48.41,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-07-08",
+    "date": "2025-07-08",
+    "threeDartAvg": 47.21,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-07-13",
+    "date": "2025-07-13",
+    "threeDartAvg": 52.62,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-07-16",
+    "date": "2025-07-16",
+    "threeDartAvg": 51.63,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-07-22",
+    "date": "2025-07-22",
+    "threeDartAvg": 55.5,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-07-28",
+    "date": "2025-07-28",
+    "threeDartAvg": 50.66,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2025-07-29",
+    "date": "2025-07-29",
+    "threeDartAvg": 50.97,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-08-01",
+    "date": "2025-08-01",
+    "threeDartAvg": 50.55,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-08-15",
+    "date": "2025-08-15",
+    "threeDartAvg": 53.26,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-08-18",
+    "date": "2025-08-18",
+    "threeDartAvg": 47.36,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-08-20",
+    "date": "2025-08-20",
+    "threeDartAvg": 52.87,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-08-22",
+    "date": "2025-08-22",
+    "threeDartAvg": 52.69,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-08-24",
+    "date": "2025-08-24",
+    "threeDartAvg": 53.25,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-09-13",
+    "date": "2025-09-13",
+    "threeDartAvg": 56.76,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-09-20",
+    "date": "2025-09-20",
+    "threeDartAvg": 51.96,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-09-24",
+    "date": "2025-09-24",
+    "threeDartAvg": 51.02,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-10-07",
+    "date": "2025-10-07",
+    "threeDartAvg": 51.26,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-10-12",
+    "date": "2025-10-12",
+    "threeDartAvg": 49.6,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-10-14",
+    "date": "2025-10-14",
+    "threeDartAvg": 59.56,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-10-21",
+    "date": "2025-10-21",
+    "threeDartAvg": 45.15,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-10-21",
+    "date": "2025-10-21",
+    "threeDartAvg": 57.04,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-10-23",
+    "date": "2025-10-23",
+    "threeDartAvg": 54.36,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-10-26",
+    "date": "2025-10-26",
+    "threeDartAvg": 56.74,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-10-27",
+    "date": "2025-10-27",
+    "threeDartAvg": 57.29,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2025-10-28",
+    "date": "2025-10-28",
+    "threeDartAvg": 53.14,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-11-04",
+    "date": "2025-11-04",
+    "threeDartAvg": 54.25,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-11-05",
+    "date": "2025-11-05",
+    "threeDartAvg": 55.1,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-11-06",
+    "date": "2025-11-06",
+    "threeDartAvg": 54.09,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-11-08",
+    "date": "2025-11-08",
+    "threeDartAvg": 57.66,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-11-11",
+    "date": "2025-11-11",
+    "threeDartAvg": 57.68,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2025-11-11",
+    "date": "2025-11-11",
+    "threeDartAvg": 54.35,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-11-16",
+    "date": "2025-11-16",
+    "threeDartAvg": 56.73,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2025-12-01",
+    "date": "2025-12-01",
+    "threeDartAvg": 54.4,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-12-24",
+    "date": "2025-12-24",
+    "threeDartAvg": 55.91,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2025-12-25",
+    "date": "2025-12-25",
+    "threeDartAvg": 52.53,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2025-12-26",
+    "date": "2025-12-26",
+    "threeDartAvg": 55.39,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-01-03",
+    "date": "2026-01-03",
+    "threeDartAvg": 58.32,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-01-20",
+    "date": "2026-01-20",
+    "threeDartAvg": 51.2,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-01-21",
+    "date": "2026-01-21",
+    "threeDartAvg": 56.1,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-01-27",
+    "date": "2026-01-27",
+    "threeDartAvg": 55.57,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-02-09",
+    "date": "2026-02-09",
+    "threeDartAvg": 60.54,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-02-10",
+    "date": "2026-02-10",
+    "threeDartAvg": 55.9,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-02-16",
+    "date": "2026-02-16",
+    "threeDartAvg": 50.92,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-02-17",
+    "date": "2026-02-17",
+    "threeDartAvg": 50.89,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-02-17",
+    "date": "2026-02-17",
+    "threeDartAvg": 62.03,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-03-06",
+    "date": "2026-03-06",
+    "threeDartAvg": 55.69,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-03-26",
+    "date": "2026-03-26",
+    "threeDartAvg": 54.97,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-04-03",
+    "date": "2026-04-03",
+    "threeDartAvg": 55.42,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-04-06",
+    "date": "2026-04-06",
+    "threeDartAvg": 55.47,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2026-04-16",
+    "date": "2026-04-16",
+    "threeDartAvg": 52.97,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-04-19",
+    "date": "2026-04-19",
+    "threeDartAvg": 53.57,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-04-20",
+    "date": "2026-04-20",
+    "threeDartAvg": 57.61,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2026-05-02",
+    "date": "2026-05-02",
+    "threeDartAvg": 56.45,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-05-12",
+    "date": "2026-05-12",
+    "threeDartAvg": 52.14,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-05-20",
+    "date": "2026-05-20",
+    "threeDartAvg": 56.99,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2026-05-31",
+    "date": "2026-05-31",
+    "threeDartAvg": 56.1,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-06-02",
+    "date": "2026-06-02",
+    "threeDartAvg": 53.55,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-06-02",
+    "date": "2026-06-02",
+    "threeDartAvg": 59.95,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-06-06",
+    "date": "2026-06-06",
+    "threeDartAvg": 56.5,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-06-07",
+    "date": "2026-06-07",
+    "threeDartAvg": 54.44,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-06-22",
+    "date": "2026-06-22",
+    "threeDartAvg": 57.55,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-06-28",
+    "date": "2026-06-28",
+    "threeDartAvg": 62.13,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-07-02",
+    "date": "2026-07-02",
+    "threeDartAvg": 59.59,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-07-06",
+    "date": "2026-07-06",
+    "threeDartAvg": 58.04,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-07-14",
+    "date": "2026-07-14",
+    "threeDartAvg": 57.35,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-07-18",
+    "date": "2026-07-18",
+    "threeDartAvg": 58.14,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-07-28",
+    "date": "2026-07-28",
+    "threeDartAvg": 59.88,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-07-31",
+    "date": "2026-07-31",
+    "threeDartAvg": 54.03,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-08-06",
+    "date": "2026-08-06",
+    "threeDartAvg": 54.56,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-08-18",
+    "date": "2026-08-18",
+    "threeDartAvg": 61.09,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-08-19",
+    "date": "2026-08-19",
+    "threeDartAvg": 58.11,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2026-08-20",
+    "date": "2026-08-20",
+    "threeDartAvg": 58.37,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-08-21",
+    "date": "2026-08-21",
+    "threeDartAvg": 59.07,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-08-25",
+    "date": "2026-08-25",
+    "threeDartAvg": 57.86,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-08-27",
+    "date": "2026-08-27",
+    "threeDartAvg": 53.43,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-09-01",
+    "date": "2026-09-01",
+    "threeDartAvg": 51.84,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-09-01",
+    "date": "2026-09-01",
+    "threeDartAvg": 55.0,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "events-2026-09-02",
+    "date": "2026-09-02",
+    "threeDartAvg": 51.72,
+    "playType": "Events",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-09-04",
+    "date": "2026-09-04",
+    "threeDartAvg": 57.98,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-09-08",
+    "date": "2026-09-08",
+    "threeDartAvg": 53.64,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-09-14",
+    "date": "2026-09-14",
+    "threeDartAvg": 57.37,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-09-15",
+    "date": "2026-09-15",
+    "threeDartAvg": 52.4,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-09-21",
+    "date": "2026-09-21",
+    "threeDartAvg": 57.78,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-10-07",
+    "date": "2026-10-07",
+    "threeDartAvg": 51.83,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-10-12",
+    "date": "2026-10-12",
+    "threeDartAvg": 57.95,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-10-16",
+    "date": "2026-10-16",
+    "threeDartAvg": 57.09,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-10-18",
+    "date": "2026-10-18",
+    "threeDartAvg": 58.27,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-10-22",
+    "date": "2026-10-22",
+    "threeDartAvg": 57.78,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "lobbies-2026-11-02",
+    "date": "2026-11-02",
+    "threeDartAvg": 54.6,
+    "playType": "Lobbies",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-11-03",
+    "date": "2026-11-03",
+    "threeDartAvg": 58.79,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-11-03",
+    "date": "2026-11-03",
+    "threeDartAvg": 55.22,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "dartbot-2026-11-07",
+    "date": "2026-11-07",
+    "threeDartAvg": 59.32,
+    "playType": "DartBot",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leagueteam-2026-11-10",
+    "date": "2026-11-10",
+    "threeDartAvg": 59.29,
+    "playType": "League Team",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "social-2026-11-12",
+    "date": "2026-11-12",
+    "threeDartAvg": 59.8,
+    "playType": "Social",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true
+  },
+  {
+    "id": "leaguesingles-2026-11-17",
+    "date": "2026-11-17",
+    "threeDartAvg": 63.9,
+    "playType": "League Singles",
+    "gameType": "Singles 501 SIDO",
+    "synthetic": true,
+    "personalBest": true
+  }
+]

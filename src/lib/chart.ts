@@ -30,7 +30,7 @@ export function rangeStart(range: TimeRange, points: PerformancePoint[]): Date {
 
 function addDays(d: Date, days: number): Date {
   const out = new Date(d);
-  out.setDate(out.getDate() - days);
+  out.setDate(out.getDate() + days);
   return out;
 }
 
@@ -47,6 +47,8 @@ export function filterPoints(
 }
 
 export interface ChartRow {
+  /** Unique x-axis key: ISO date plus row index. */
+  key: string;
   date: string;
   label: string;
   avg: number;
@@ -62,7 +64,8 @@ export function buildChartRows(
   mode: ChartMode,
   window = 5
 ): ChartRow[] {
-  const rows: ChartRow[] = points.map((p) => ({
+  const rows: ChartRow[] = points.map((p, i) => ({
+    key: `${p.date}#${i}`,
     date: p.date,
     label: formatShortDate(p.date),
     avg: p.threeDartAvg,
